@@ -29,21 +29,21 @@
 }
 
 body {
-    background-color:var(--white-first-background-color);
-    color: var(--secondary-text-color);
+    background-color:var(--white-first-background-color) ;
+    color: var(--secondary-text-color) ;
 }
 
 /* оформлення лого */
 .logo {
-    color:var(--accent-color);
+    color:var(--accent-color) ;
 }
 
 .footer-logo {
-color: var(--full-white-color);
+color: var(--full-white-color) ;
 }
 
 .header-logo {
-color: var(--full-bleck-color);
+color: var(--full-bleck-color) ;
 }
 
 
@@ -55,11 +55,11 @@ color: var(--full-bleck-color);
 
 /* site-nav */
 .site-nav .link {
-    color:var(--primary-text-color)
+    color:var(--primary-text-color) ;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:var(--accent-color)
+    color:var(--accent-color) ;
 }
 .site-nav .link.current {
     color: var(--accent-color);
@@ -79,7 +79,7 @@ color: var(--full-bleck-color);
 
 /* section */
 .section-title {
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
     }
 
 
