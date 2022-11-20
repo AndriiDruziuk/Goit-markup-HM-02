@@ -32,12 +32,27 @@ body {
     background-color:var(--white-first-background-color);
     color: var(--secondary-text-color);
 }
+
+/* оформлення лого */
 .logo {
-    color:var(--full-bleck-color);
+    color:var(--accent-color);
 }
+
+.footer-logo {
+color: var(--full-white-color);
+}
+
+.header-logo {
+color: var(--full-bleck-color);
+}
+
+
+/* касування крапок при лішках */
 .list {
     list-style: none;
 }
+
+
 /* site-nav */
 .site-nav .link {
     color:var(--primary-text-color)
@@ -49,6 +64,8 @@ body {
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
+
 /* auth-nav */
 .auth-nav .link {
     color: var(--secondary-text-color);
@@ -64,12 +81,29 @@ body {
 .section-title {
     color:var(--primary-text-color)
     }
-/* Features and Job */
+
+
+  /* Features and Job */
 .feature-list .title {
     color:var(--primary-text-color) ;
 }
+
+
 /* button */
 .button {
     background-color: var(--accent-color);
 color:var(--full-white-color) ;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--background-dark-color);
+}
+.link-primary {
+color: var(--full-white-color);
+}
+.link-secondary {
+    color: var(--white-second-text-color);
 }
