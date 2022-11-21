@@ -28,7 +28,7 @@
     --full-white-color:#FFFFFF;
 }
 
-body {
+.body {
     background-color:var(--white-first-background-color) ;
     color: var(--secondary-text-color) ;
 }
@@ -38,14 +38,24 @@ body {
     color:var(--accent-color) ;
 }
 
+
 .footer-logo {
 color: var(--full-white-color) ;
+}
+
+.footer-logo:focus,
+.footer-logo:hover {
+    color: var(--accent-color);
 }
 
 .header-logo {
 color: var(--full-bleck-color) ;
 }
 
+.header-logo:focus,
+.header-logo:hover {
+    color: var(--accent-color);
+}
 
 /* касування крапок при лішках */
 .list {
@@ -64,6 +74,7 @@ color: var(--full-bleck-color) ;
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
 
 
 /* auth-nav */
@@ -101,9 +112,44 @@ color:var(--full-white-color) ;
 .footer {
     background-color: var(--background-dark-color);
 }
+
 .link-primary {
 color: var(--full-white-color);
 }
+.link-primary:focus,
+.link-primary:hover {
+ color: var(--accent-color);
+}
+
+
 .link-secondary {
     color: var(--white-second-text-color);
+}
+.link-secondary:focus,
+.link-secondary:hover {
+    color: var(--accent-color);
+}
+
+/* оформлення Портфоліо */
+
+/* buttons */
+
+.page-nav-button .button {
+    background-color: var(--background-light-color);
+    color: var(--primary-text-color) ;
+}
+.page-nav-button .button:focus,
+.page-nav-button .button:hover {
+    background-color: var(--accent-color);
+    color: var(--full-white-color);
+} 
+
+/* список прикладів робіт */
+.portfolio-list .title {
+    color: var(--primary-text-color);
+}
+
+/* колір для абзаців */
+.portfolio-list  .p {
+    color: var(--secondary-text-color);
 }
