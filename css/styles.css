@@ -34,6 +34,8 @@
 }
 
 /* оформлення лого */
+
+
 .logo {
     color:var(--accent-color) ;
 }
@@ -57,31 +59,23 @@ color: var(--full-bleck-color) ;
     color: var(--accent-color);
 }
 
+
+
 /* касування крапок при лішках */
 .list {
     list-style: none;
 }
 
-/* секція героя */
-
-.hero {
-    background-color:var(--background-dark-color) ;
-}
-.herio .title {
-    color: var(--full-white-color);
-}
-
-
-
-
 /* site-nav */
 .site-nav .link {
-    color:var(--primary-text-color) ;
+    color: var(--primary-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:var(--accent-color) ;
+    color: var(--accent-color);
 }
+
 .site-nav .link.current {
     color: var(--accent-color);
 }
@@ -92,10 +86,30 @@ color: var(--full-bleck-color) ;
 .auth-nav .link {
     color: var(--secondary-text-color);
 }
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
+
+/* Секції */
+
+
+/* секція героя */
+
+.hero {
+    background-color:var(--background-dark-color) ;
+}
+.herio .title {
+    color: var(--full-white-color);
+}
+/* button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--full-white-color);
+}
+
+
 
 
 
@@ -105,17 +119,11 @@ color: var(--full-bleck-color) ;
     }
 
 
-  /* Features and Job */
+  /* Features and Job  */
 .feature-list .title {
     color:var(--primary-text-color) ;
 }
 
-
-/* button */
-.button {
-    background-color: var(--accent-color);
-color:var(--full-white-color) ;
-}
 
 
 /* Footer */
@@ -140,6 +148,8 @@ color: var(--full-white-color);
 .link-secondary:hover {
     color: var(--accent-color);
 }
+
+
 
 /* оформлення Портфоліо */
 
