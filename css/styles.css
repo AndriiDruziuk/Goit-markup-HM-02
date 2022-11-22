@@ -123,6 +123,7 @@ color: var(--full-bleck-color) ;
 .feature-list .title {
     color:var(--primary-text-color) ;
 }
+.sectio
 
 
 
@@ -171,6 +172,6 @@ color: var(--full-white-color);
 }
 
 /* колір для абзаців */
-.portfolio-list  .p {
+.portfolio-list .portfolio-pharagraf {
     color: var(--secondary-text-color);
 }
