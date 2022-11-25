@@ -43,7 +43,7 @@
 
 .logo {
     color:var(--accent-color) ;
-       
+       text-decoration: none;
     font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
@@ -56,7 +56,7 @@
 
 .footer-logo {
 color: var(--full-white-color) ;
-     
+    text-decoration: none;
 font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
@@ -81,7 +81,7 @@ font-family: 'Raleway';
 
 .header-logo {
 color: var(--full-bleck-color) ;
-        
+        text-decoration: none;
 font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
