@@ -45,7 +45,6 @@
     color:var(--accent-color) ;
        
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
@@ -59,7 +58,6 @@
 color: var(--full-white-color) ;
      
 font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
@@ -73,7 +71,6 @@ font-family: 'Raleway';
     color: var(--accent-color);
        
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
@@ -86,7 +83,6 @@ font-family: 'Raleway';
 color: var(--full-bleck-color) ;
         
 font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
@@ -100,7 +96,6 @@ font-family: 'Raleway';
     color: var(--accent-color);
      
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
@@ -119,9 +114,9 @@ font-family: 'Raleway';
 /* site-nav */
 .site-nav .link {
     color: var(--primary-text-color);
+    text-decoration: none;
        
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
@@ -142,9 +137,8 @@ font-family: 'Raleway';
 /* auth-nav */
 .auth-nav .link {
     color: var(--secondary-text-color);
-       
+    text-decoration: none;
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
@@ -165,7 +159,6 @@ font-family: 'Raleway';
     background-color:var(--background-dark-color) ;
         
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -184,7 +177,6 @@ font-family: 'Raleway';
     color: var(--full-white-color);
         
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -205,7 +197,6 @@ font-family: 'Raleway';
     color:var(--primary-text-color);
 
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -218,8 +209,7 @@ font-family: 'Raleway';
 .feature-list .title {
     color:var(--primary-text-color) ;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto'
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -242,6 +232,7 @@ font-family: 'Raleway';
 
 .link-primary {
 color: var(--full-white-color);
+text-decoration: none;
 
 font-family: 'Roboto';
     font-style: normal;
@@ -259,6 +250,7 @@ font-family: 'Roboto';
 
 .link-secondary {
     color: var(--white-second-text-color);
+    text-decoration: none;
 
 font-family: 'Roboto';
     font-style: normal;
@@ -280,12 +272,15 @@ font-family: 'Roboto';
 
 /* buttons */
 
+
+
+
+
 .page-nav-button .button {
     background-color: var(--background-light-color);
     color: var(--primary-text-color) ;
 
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,63;
@@ -303,9 +298,9 @@ font-family: 'Roboto';
 /* список прикладів робіт */
 .portfolio-list .title {
     color: var(--primary-text-color);
+    text-decoration: none;
 
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -317,13 +312,17 @@ font-family: 'Roboto';
 /* колір для абзаців */
 .portfolio-list .portfolio-pharagraf {
     color: var(--secondary-text-color);
+    text-decoration: none;
 
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
         /* identical to box height, or 188% */
     
         letter-spacing: 0.03em;
+}
+
+.portfolio-list  .a {
+    text-decoration: none;
 }
