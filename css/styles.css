@@ -170,13 +170,24 @@ font-family: 'Raleway';
 }
 .hero .title {
     color: var(--full-white-color);
+
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 /* button */
-.hero .button {
+.hero .button-order {
     background-color: var(--accent-color);
     color: var(--full-white-color);
         
-    font-family: 'Roboto';
+    font-family: 'Roboto' inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -190,9 +201,12 @@ font-family: 'Raleway';
 
 
 
-
-
 /* section... */
+
+.section {
+background-color: var(--white-first-background-color);
+}
+
 .section-title {
     color:var(--primary-text-color);
 
@@ -209,12 +223,15 @@ font-family: 'Raleway';
 .feature-list .title {
     color:var(--primary-text-color) ;
     
-    font-family: 'Roboto'
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        /* identical to box height */
+    
+       
+        letter-spacing: 0.03em;
 
 }
 /* color to 3section */
@@ -236,10 +253,11 @@ text-decoration: none;
 
 font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
     letter-spacing: 0.03em;
 }
 .link-primary:focus,
@@ -280,7 +298,7 @@ font-family: 'Roboto';
     background-color: var(--background-light-color);
     color: var(--primary-text-color) ;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto' inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,63;
@@ -296,6 +314,11 @@ font-family: 'Roboto';
 } 
 
 /* список прикладів робіт */
+.portfolio-list .link {
+    text-decoration: none;
+}
+
+
 .portfolio-list .title {
     color: var(--primary-text-color);
     text-decoration: none;
@@ -321,8 +344,4 @@ font-family: 'Roboto';
         /* identical to box height, or 188% */
     
         letter-spacing: 0.03em;
-}
-
-.portfolio-list  .a {
-    text-decoration: none;
 }
